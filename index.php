@@ -8,7 +8,7 @@
  <div class="container mt-5">
   <div class="d-flex justify-content-between align-items-center">
     <h2>Task list</h2>
-    <a href="addtask.php" class="btn btn-success">Create Task</a>
+    <a href="resource/task/addtask.php" class="btn btn-success">Create Task</a>
   </div>
 
   <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
@@ -26,7 +26,7 @@
         <div class="card-footer ">
           <div class="d-flex justify-content-between">
             <small class="text-muted d-flex align-items-center">Last updated <?php echo $task['modified_at'] ?></small>
-            <a href="viewtask.php?id=<?php echo $task['id']?>" class="btn btn-primary">Expand</a>
+            <a href="resource/task/viewtask.php?id=<?php echo $task['id']?>" class="btn btn-primary">Expand</a>
           </div>
         </div>
       </div>

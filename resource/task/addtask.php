@@ -1,6 +1,6 @@
 <?php
-  include 'includes/header.inc.php';
-  include 'includes/class-autoloader.inc.php';
+  include '../../includes/header.inc.php';
+  include '../../includes/class-autoloader.inc.php';
 ?>
 
 <body>

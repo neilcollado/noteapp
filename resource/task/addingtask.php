@@ -1,5 +1,5 @@
 <?php
-  include 'includes/class-autoloader.inc.php';
+  include '../../includes/class-autoloader.inc.php';
 
   if(isset($_POST['submit'])) {
     $taskname = $_POST['taskname'];
@@ -11,8 +11,8 @@
       echo "Error Creating Task.";
     } else {
       TaskCtr::createTask($taskname, $taskdesc, $author);
-      header("Location: index.php?createTask=success");
+      header("Location: ../../index.php?create=success");
     }
   } else {
-    header("Location: index.php");
+    header("Location: ../../index.php");
   }
