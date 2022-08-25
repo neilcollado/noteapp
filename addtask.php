@@ -16,7 +16,7 @@
         <label for="taskdesc" class="form-label">Task Description</label>
         <input type="text" class="form-control" id="taskdesc" name="taskdesc">
       </div>
-      <input type="submit" name="submit" value="Create Task" class="btn btn-primary">
+      <input type="submit" name="submit" value="Create Task" class="btn btn-success">
     </form>
   </div>
 </body>
