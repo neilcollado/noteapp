@@ -5,6 +5,7 @@
 
 <body>
   <div class="container mt-5 w-50 mx-auto">
+
     <h2>Create a new Task</h2>
     <form class="mt-5" action="addingtask.php" method="POST">
       <input type="hidden" name="author" value="0">
@@ -19,5 +20,6 @@
       <input type="submit" name="submit" value="Create Task" class="btn btn-success">
     </form>
   </div>
+  
 </body>
 </html>
